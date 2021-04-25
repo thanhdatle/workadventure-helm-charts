@@ -1,4 +1,4 @@
-# charts.github.io
+# helm-charts
 My own helm charts repository
 
 ## How to add new chart:
@@ -14,7 +14,7 @@ helm package helm-chart-sources/*
 ```  
 - Regenerate index.html file by:
 ```shell
-helm repo index --url https://github.com/behoof4mind/charts.github.io --merge index.yaml .
+helm repo index --url https://behoof4mind.github.io/helm-charts/ --merge index.yaml .
 ```
 - Push your changes back to the repo
 
@@ -24,7 +24,7 @@ helm repo index --url https://github.com/behoof4mind/charts.github.io --merge in
 - Increment chart version in your `Chart.yaml` file
 - Regenerate index.html file by:
 ```shell
-helm repo index --url https://github.com/behoof4mind/charts.github.io --merge index.yaml .
+helm repo index --url https://behoof4mind.github.io/helm-charts/ --merge index.yaml .
 ```
 - Push your changes back to the repo
 
