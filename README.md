@@ -28,6 +28,9 @@ helm repo index --url https://behoof4mind.github.io/helm-charts/ --merge index.y
 ```
 - Push your changes back to the repo
 
+## List of available charts:
+
+[workadventure-chart](./helm-chart-sources/workadventure-chart/README.md)
 
 ## License
 
