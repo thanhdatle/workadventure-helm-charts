@@ -3,12 +3,12 @@ entries:
   workadventure-chart:
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2021-04-25T13:28:51.706313+03:00"
+    created: "2021-04-25T22:53:37.805158+03:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: acd9a011abb119d1997db5cd85d81d1432a0678f778adc8a5fb2608196e7b849
     name: workadventure-chart
     type: application
     urls:
-    - https://behoof4mind.github.io/helm-chart/workadventure-chart-0.1.0.tgz
+    - https://behoof4mind.github.io/helm-charts/workadventure-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-25T13:28:51.704394+03:00"
+generated: "2021-04-25T22:53:37.803541+03:00"
