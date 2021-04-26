@@ -24,7 +24,7 @@ helm repo index --url https://behoof4mind.github.io/helm-charts/ --merge index.y
 - Increment chart version in your `Chart.yaml` file
 - Regenerate index.html file by:
 ```shell
-helm repo index --url https://behoof4mind.github.io/helm-charts/ --merge index.yaml .
+helm repo index --url https://behoof4mind.github.io/helm-charts --merge index.yaml .
 ```
 - Push your changes back to the repo
 
