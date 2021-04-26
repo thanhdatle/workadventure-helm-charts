@@ -4,7 +4,7 @@ My own helm charts repository
 ## How to add new chart:
 - Clone repo
 - Put chart to the `helm-chart-sources` directory
-- Lint charts to be sure that it works
+- Lint charts to be sure that it does not have errors
 ```shell
 helm lint helm-chart-sources/*
 ```
@@ -21,7 +21,15 @@ helm repo index --url https://behoof4mind.github.io/helm-charts/ --merge index.y
 ## How to add new chart version
 - Clone repo
 - Put new changes
-- Increment chart version in your `Chart.yaml` file
+- Lint charts to be sure that it does not have errors
+```shell
+helm lint helm-chart-sources/*
+```
+- Increment chart version in `Chart.yaml` file
+- Package charts by:
+```shell
+helm package helm-chart-sources/*
+``` 
 - Regenerate index.html file by:
 ```shell
 helm repo index --url https://behoof4mind.github.io/helm-charts --merge index.yaml .
