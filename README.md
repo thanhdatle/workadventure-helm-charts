@@ -1,6 +1,34 @@
 # helm-charts
 My own helm charts repository
 
+## How to use it:
+#### By Helmfile
+```yaml
+repositories:
+  - name: behoof4mind
+    url:  https://behoof4mind.github.io/helm-charts
+
+releases:
+  - name: weather-service
+    namespace: weather-service
+    chart: behoof4mind/weather-service
+    version: 0.1.0
+    atomic: true
+    values:
+      - image:
+...
+```
+#### By Helm itself:
+```yaml
+helm repo add behoof4mind https://behoof4mind.github.io/helm-charts
+```
+```yaml
+helm repo update
+```
+```yaml
+helm install weather-service behoof4mind/weather-service -n weather-service --create-namespace
+```
+
 ## How to add new chart:
 - Clone repo
 - Put chart to the `helm-chart-sources` directory
