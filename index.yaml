@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
+  weather-service:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2021-04-29T11:50:11.41122+03:00"
+    description: A Helm chart for weather-service
+    digest: b36da3180149c810ee8962432b4c8abaff931726ed0a8d18b2300187d9ef4a32
+    name: weather-service
+    type: application
+    urls:
+    - https://behoof4mind.github.io/helm-charts/weather-service-0.1.0.tgz
+    version: 0.1.0
   workadventure-chart:
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2021-04-25T22:53:37.805158+03:00"
+    created: "2021-04-29T11:50:11.414291+03:00"
     description: A Helm chart for workadventure in Kubernetes
-    digest: acd9a011abb119d1997db5cd85d81d1432a0678f778adc8a5fb2608196e7b849
+    digest: 46bbf0937c26e397a3e58d851537711f45e3c895a086de634b5a7bf23b9578b5
     name: workadventure-chart
     type: application
     urls:
     - https://behoof4mind.github.io/helm-charts/workadventure-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-25T22:53:37.803541+03:00"
+generated: "2021-04-29T11:50:11.41027+03:00"

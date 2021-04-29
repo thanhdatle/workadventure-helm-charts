@@ -1,0 +1,6 @@
+apiVersion: v2
+name: weather-service
+description: A Helm chart for weather-service
+type: application
+version: 0.1.0
+appVersion: v0.1.0

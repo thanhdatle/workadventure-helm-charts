@@ -26,7 +26,7 @@ helm repo index --url https://behoof4mind.github.io/helm-charts/ --merge index.y
 helm lint helm-chart-sources/*
 ```
 - Increment chart version in `Chart.yaml` file
-- Package charts by:
+  db-configmap.yaml- Package charts by:
 ```shell
 helm package helm-chart-sources/*
 ``` 
@@ -39,6 +39,8 @@ helm repo index --url https://behoof4mind.github.io/helm-charts --merge index.ya
 ## List of available charts:
 
 [workadventure-chart](./helm-chart-sources/workadventure-chart/README.md)
+[weather-service](./helm-chart-sources/weather-service/README.md)
+
 
 ## License
 
