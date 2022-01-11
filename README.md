@@ -34,11 +34,11 @@ helm install weather-service behoof4mind/weather-service -n weather-service --cr
 - Put chart to the `helm-chart-sources` directory
 - Lint charts to be sure that it does not have errors
 ```shell
-helm lint helm-chart-sources/*
+helm lint charts/*
 ```
 - Package charts by:
 ```shell
-helm package helm-chart-sources/*
+helm package charts/*
 ```  
 - Regenerate index.html file by:
 ```shell
@@ -51,12 +51,12 @@ helm repo index --url https://behoof4mind.github.io/helm-charts/ --merge index.y
 - Put new changes
 - Lint charts to be sure that it does not have errors
 ```shell
-helm lint helm-chart-sources/*
+helm lint charts/*
 ```
 - Increment chart version in `Chart.yaml` file
   db-configmap.yaml- Package charts by:
 ```shell
-helm package helm-chart-sources/*
+helm package charts/*
 ``` 
 - Regenerate index.html file by:
 ```shell
@@ -66,8 +66,8 @@ helm repo index --url https://behoof4mind.github.io/helm-charts --merge index.ya
 
 ## List of available charts:
 
-[workadventure-chart](./helm-chart-sources/workadventure-chart/README.md) <br>
-[weather-service](./helm-chart-sources/weather-service/README.md)
+[workadventure-chart](charts/workadventure-chart/README.md) <br>
+[weather-service](charts/weather-service/README.md)
 
 
 ## License
