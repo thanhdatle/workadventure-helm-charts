@@ -9,7 +9,7 @@ fullnameOverride: ""
 image:
   tag: ""
 
-domain: "workadventure-game.link"
+domain: "forsg.io"
 
 # Env
 env:
