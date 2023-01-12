@@ -50,9 +50,9 @@ back:
 
   ingress:
     enabled: true
-    annotations: {}
-      # kubernetes.io/ingress.class: nginx
-      # kubernetes.io/tls-acme: "true"
+    annotations:
+     kubernetes.io/ingress.class: nginx
+     kubernetes.io/tls-acme: "true"
     hosts:
       - host: api # FQDN is computed with this and domain
         paths: [/]
@@ -96,9 +96,9 @@ front:
 
   ingress:
     enabled: true
-    annotations: {}
-      # kubernetes.io/ingress.class: nginx
-      # kubernetes.io/tls-acme: "true"
+    annotations:
+     kubernetes.io/ingress.class: nginx
+     kubernetes.io/tls-acme: "true"
     hosts:
       - host: play
         paths: [/]
@@ -139,9 +139,9 @@ pusher:
 
   ingress:
     enabled: true
-    annotations: {}
-      # kubernetes.io/ingress.class: nginx
-      # kubernetes.io/tls-acme: "true"
+    annotations:
+     kubernetes.io/ingress.class: nginx
+     kubernetes.io/tls-acme: "true"
     hosts:
       - host: pusher
         paths: [/]
@@ -181,9 +181,9 @@ uploader:
 
   ingress:
     enabled: true
-    annotations: {}
-      # kubernetes.io/ingress.class: nginx
-      # kubernetes.io/tls-acme: "true"
+    annotations:
+     kubernetes.io/ingress.class: nginx
+     kubernetes.io/tls-acme: "true"
     hosts:
       - host: uploader
         paths: [/]
@@ -223,9 +223,9 @@ maps:
 
   ingress:
     enabled: true
-    annotations: {}
-      # kubernetes.io/ingress.class: nginx
-      # kubernetes.io/tls-acme: "true"
+    annotations:
+     kubernetes.io/ingress.class: nginx
+     kubernetes.io/tls-acme: "true"
     hosts:
       - host: maps
         paths: [/]
