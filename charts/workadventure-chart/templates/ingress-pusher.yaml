@@ -15,6 +15,12 @@ metadata:
     {{- include "workadventure.labels" . | nindent 4 }}
   {{- with .Values.pusher.ingress.annotations }}
   annotations:
+    service.beta.kubernetes.io/aws-load-balancer-backend-protocol: "tcp"
+    service.beta.kubernetes.io/aws-load-balancer-proxy-protocol: "*"
+    # Map port 443
+    service.beta.kubernetes.io/aws-load-balancer-ssl-ports: "https"
+    # Increase the ELB idle timeout to avoid issues with WebSockets or Server-Sent Events.
+    service.beta.kubernetes.io/aws-load-balancer-connection-idle-timeout: '3600'
     {{- toYaml . | nindent 4 }}
   {{- end }}
 spec:
