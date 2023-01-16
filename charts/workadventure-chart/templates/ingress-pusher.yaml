@@ -45,4 +45,11 @@ spec:
                   number: {{ $svcPort }}
           {{- end }}
       {{- end }}
+  ports:
+  - name: http
+    port: 80
+    targetPort: http
+  - name: https
+    port: 443
+    targetPort: http
 {{- end }}
