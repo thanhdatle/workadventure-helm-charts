@@ -3,7 +3,7 @@ entries:
   concierge:
   - apiVersion: v2
     appVersion: 0.12.0
-    created: "2023-01-18T14:51:09.809065+08:00"
+    created: "2023-01-18T14:56:38.573229+08:00"
     description: A Pinniped concierge helm chart for Kubernetes
     digest: a01fd9849d3f27aebc41691bbaa30c5e76024c2662f3b0c77b1055872abdba34
     maintainers:
@@ -16,7 +16,7 @@ entries:
   supervisor:
   - apiVersion: v2
     appVersion: 0.12.0
-    created: "2023-01-18T14:51:09.809625+08:00"
+    created: "2023-01-18T14:56:38.573775+08:00"
     description: A Pinniped supervisor helm chart for Kubernetes
     digest: dfce04312d9678620d60b79c7ef22d364dabda4dc8d4f1f5c953970f0ae9fd39
     maintainers:
@@ -29,7 +29,7 @@ entries:
   weather-service:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2023-01-18T14:51:09.810087+08:00"
+    created: "2023-01-18T14:56:38.574224+08:00"
     description: A Helm chart for weather-service
     digest: 2e61c65bb886d241538126b3619d3a29cb8d7844b56defa8512a2d7d04f1c83d
     name: weather-service
@@ -40,7 +40,7 @@ entries:
   workadventure-chart:
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2023-01-18T14:51:09.816153+08:00"
+    created: "2023-01-18T14:56:38.582331+08:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: 65c04a43d2c5302017626b94231431ba99aa2dd38d2cfc037caafa8948ae4294
     name: workadventure-chart
@@ -50,7 +50,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2023-01-18T14:51:09.815329+08:00"
+    created: "2023-01-18T14:56:38.581406+08:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: 0ab595af5149d3d6df3ede13203b24a2b4237844d5a0a023ac4c8c45c8fd9921
     name: workadventure-chart
@@ -60,7 +60,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2023-01-18T14:51:09.814463+08:00"
+    created: "2023-01-18T14:56:38.580463+08:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: 366b2198358413a26a699cda85e19b3513d470387a040ae1f7546d3d5743deed
     name: workadventure-chart
@@ -70,7 +70,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: v1.14.13
-    created: "2023-01-18T14:51:09.825046+08:00"
+    created: "2023-01-18T14:56:38.590681+08:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: cd7ea9b30d98dfd1d8d3d69874afa95a62b6994a4024634046753778379a4c28
     name: workadventure-chart
@@ -80,7 +80,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2023-01-18T14:51:09.82405+08:00"
+    created: "2023-01-18T14:56:38.589693+08:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: 432f3705f8172783c8e11d4983ab2904c334fc45c68a05d8d463758c13f04de4
     name: workadventure-chart
@@ -90,7 +90,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2023-01-18T14:51:09.823197+08:00"
+    created: "2023-01-18T14:56:38.588678+08:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: e58cb4d964013d2ff86a8bae4306dd696074ae36f4e9a73ededb59ed2058bae9
     name: workadventure-chart
@@ -100,7 +100,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2023-01-18T14:51:09.8221+08:00"
+    created: "2023-01-18T14:56:38.58712+08:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: 04bc25c8e4d990e6813fc4941f01d4699e0f9c453e79af6d1ad5f71dd665ced4
     name: workadventure-chart
@@ -110,7 +110,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2023-01-18T14:51:09.820205+08:00"
+    created: "2023-01-18T14:56:38.586149+08:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: 8125e706da535311ec4fa193a1c267622fcf687ec55ed75a7e4d7ec6184f5797
     name: workadventure-chart
@@ -120,7 +120,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2023-01-18T14:51:09.819233+08:00"
+    created: "2023-01-18T14:56:38.585255+08:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: ff5f08ef4deb9f5f956b916697cbcfb52e013194b63aa8aa86a6ec1231bc7ed5
     name: workadventure-chart
@@ -130,7 +130,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2023-01-18T14:51:09.818292+08:00"
+    created: "2023-01-18T14:56:38.584313+08:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: b163effd424a051b454055ae0a1bc73bd85a18ccb4bd8cd35aa8b7d142926d89
     name: workadventure-chart
@@ -140,7 +140,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2023-01-18T14:51:09.817166+08:00"
+    created: "2023-01-18T14:56:38.583297+08:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: 288f9cedc4095b7bd34baa6c5ff5124f62f97ccf3ead73e1088fd45a724430de
     name: workadventure-chart
@@ -150,7 +150,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2023-01-18T14:51:09.813502+08:00"
+    created: "2023-01-18T14:56:38.579451+08:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: 05eccdc230391f6e9f296ed9c043d08f35da9cbe3e41bfaff770a5cb59858bda
     name: workadventure-chart
@@ -160,7 +160,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2023-01-18T14:51:09.812575+08:00"
+    created: "2023-01-18T14:56:38.57523+08:00"
     description: A Helm chart for workadventure in Kubernetes
     digest: f6a5de5175336e24e24c7b26dacc398faa90b050df2d1d723b9b628385d5877a
     name: workadventure-chart
@@ -168,4 +168,4 @@ entries:
     urls:
     - https://thanhdatle.github.io/workadventure-helm-charts/workadventure-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-18T14:51:09.807882+08:00"
+generated: "2023-01-18T14:56:38.572123+08:00"
