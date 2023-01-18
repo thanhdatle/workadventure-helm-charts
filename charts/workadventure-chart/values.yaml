@@ -68,8 +68,9 @@ front:
   replicaCount: 1
 
   image:
-    repository: "thecodingmachine/workadventure-play"
+    repository: "thecodingmachine/workadventure-front"
     pullPolicy: IfNotPresent
+    tag: "v1.14.13"
 
   # Env front
   env:
