@@ -18,6 +18,10 @@ spec:
       targetPort: direct
       protocol: TCP
       name: direct
+    - port: 443
+      targetPort: http
+      protocol: TCP
+      name: https
   selector:
     {{- include "workadventure.selectorLabels" . | nindent 4 }}
     app.kubernetes.io/type: "{{ .Values.back.name }}"
